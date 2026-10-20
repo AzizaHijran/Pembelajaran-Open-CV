@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-lower = np.array ([0, 100, 10])
-upper = np.array ([35, 255, 255])
+lower = np.array ([30, 10, 5])
+upper = np.array ([85, 255, 255])
 
 video = cv2.VideoCapture(0)
 
@@ -26,3 +26,4 @@ while True :
     cv2.imshow ("capture", img)
 
     cv2.waitKey(1)
+        
